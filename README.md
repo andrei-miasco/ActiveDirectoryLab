@@ -27,12 +27,12 @@ Change adaptor options and determine which Ethernet port is connected to the Int
 <img src="https://imgur.com/KPuyH8n.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Rename PC as a domain controller: <br/>
+Configure IP for internal network. DC serves as gateway, and AD will provide DNS,configure as own IP or use loopback address: <br/>
+<img src="https://imgur.com/IYatyc8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Rename PC as a domain controller:  <br/>
 <img src="https://imgur.com/pL6f21g.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Wait for process to complete (may take some time):  <br/>
