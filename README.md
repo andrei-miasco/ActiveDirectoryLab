@@ -27,8 +27,8 @@ Change adaptor options and determine which Ethernet port is connected to the Int
 <img src="https://imgur.com/KPuyH8n.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Rename PC as a domain controller: <br/>
+<img src="https://imgur.com/pL6f21g.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Confirm your selection:  <br/>
