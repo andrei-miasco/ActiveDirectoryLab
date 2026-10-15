@@ -20,31 +20,42 @@ In this lab, we walk through the process of creating an Active Directory environ
 
 <p align="center">
 Change adaptor options and determine which Ethernet port is connected to the Internet, and which is internal. Rename accordingly:<br/>
-<img src="https://imgur.com/Qph3VKh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/Qph3VKh.png" height="80%" width="80%" alt=/>
 <br />
 <br />
 <br/>
-<img src="https://imgur.com/KPuyH8n.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/KPuyH8n.png" height="80%" width="80%" alt=/>
 <br />
 <br />
 Configure IP for internal network. DC serves as gateway, and AD will provide DNS,configure as own IP or use loopback address: <br/>
-<img src="https://imgur.com/IYatyc8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/IYatyc8.png" height="80%" width="80%" alt=/>
 <br />
 <br />
 Rename PC as a domain controller:  <br/>
-<img src="https://imgur.com/pL6f21g.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/pL6f21g.png" height="80%" width="80%" alt=/>
 <br />
 <br />
 Install Active Directory Domain Services:  <br/>
-<img src="https://imgur.com/D6hFACr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/D6hFACr.png" height="80%" width="80%" alt=/>
 <br />
 <br />
 Promote server to a domain controller :  <br/>
-<img src="https://imgur.com/kOT6dOp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/kOT6dOp.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create an organizational unit to add a dedicated domain admin account:  <br/>
+<img src="https://imgur.com/YDXL1fI.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+Create account and promote it to an admin. Sign out and sign into new admin account: <br/>
+ <img src="https://imgur.com/DzSS8XF.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+Install Remote Access and configure Network Address Translation to the INTERNET network: <br/>
+<img src="https://imgur.com/BL0G20C.png" height="80%" width="80%" alt=/>
+ <br />
+<br />
+ <img src="https://imgur.com/2Wj1HON.png" height="80%" width="80%" alt=/>
 </p>
 
 <!--
