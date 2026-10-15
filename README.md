@@ -2,13 +2,12 @@
 
 
 <h2>Description</h2>
-In this lab, we walk through the process of creating an Active Directory environment using two virtual machines in Oracle Virtual Box. We will create one VM as the domain controller with the following installed and configured: AD, RAS/NAT, and DHCP Scope. The second virtual machine will serve as the internal network.
+In this lab, we walk through the process of creating an Active Directory environment using two virtual machines in Oracle Virtual Box. We will create one VM as the domain controller with the following installed and configured: AD, RAS/NAT, DHCP, and DNS. The second virtual machine will serve as the internal network that will join to the domain. 
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
-
-- <b>PowerShell</b> 
+ 
 - <b>Oracle Virtual Box</b>
 
 <h2>Environments Used </h2>
@@ -53,9 +52,34 @@ Create account and promote it to an admin. Sign out and sign into new admin acco
 <br />
 Install Remote Access and configure Network Address Translation to the INTERNET network: <br/>
 <img src="https://imgur.com/BL0G20C.png" height="80%" width="80%" alt=/>
- <br />
 <br />
- <img src="https://imgur.com/2Wj1HON.png" height="80%" width="80%" alt=/>
+<br />
+<img src="https://imgur.com/2Wj1HON.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+Install DHCP to allow clients to receive an IP address automatically:
+<img src="https://imgur.com/Q8BxY9z.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+Go into DHCP to configure the scope and set IP of DC as default gateway :
+<img src="https://imgur.com/rDvFsbm.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<img src="https://imgur.com/ZTLx1DA.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+Create second VM, change network adapter settings to Internal Network, and install Windows 10 ISO:
+<img src="https://imgur.com/mCTId00.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<img src="https://imgur.com/j82UVni.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+Open command line to run ipconfig to confirm and ping a website to confirm internet connection to DC:
+<br />
+<br />
+<img src="https://imgur.com/j82UVni.png" height="80%" width="80%" alt=/>
+ 
 </p>
 
 <!--
