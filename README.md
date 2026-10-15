@@ -76,9 +76,11 @@ Create second VM, change network adapter settings to Internal Network, and insta
 <br />
 <br />
 Open command line to run ipconfig to confirm and ping a website to confirm internet connection to DC:
+<img src="https://imgur.com/icyr0sD.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-<img src="https://imgur.com/j82UVni.png" height="80%" width="80%" alt=/>
+Lastly, rename the PC and join the domain:
+<img src="https://imgur.com/N7ucZ87.png" height="80%" width="80%" alt=/>
  
 </p>
 
