@@ -2,13 +2,14 @@
 
 
 <h2>Description</h2>
-In this lab, we walk through the process of creating an Active Directory environment using two virtual machines in Oracle Virtual Box. We will create one VM as the domain controller with the following installed and configured: AD, RAS/NAT, DHCP, and DNS. The second virtual machine will serve as the internal network that will join to the domain. 
+In this lab, we walk through the process of creating an Active Directory environment using two virtual machines in Oracle Virtual Box. We will create one VM as the domain controller with the following installed and configured: AD, RAS/NAT, DHCP, and DNS. The second virtual machine will serve as the internal network that will join to the domain. Using a PowerShell script, we will be adding users to the domain and walk through adding users, removing users, and group policies. 
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
  
 - <b>Oracle Virtual Box</b>
+- <b>PowerShell Script</b>
 
 <h2>Environments Used </h2>
 
