@@ -81,6 +81,10 @@ Open command line to run ipconfig to confirm and ping a website to confirm inter
 <br />
 Lastly, rename the PC and join the domain:
 <img src="https://imgur.com/N7ucZ87.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+When signing back into the domain controller, the client computer will be shown in the active directory.
+<img src="https://imgur.com/4PMYR05.png" height="80%" width="80%" alt=/>
  
 </p>
 
