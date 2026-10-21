@@ -69,6 +69,22 @@ Go into DHCP to configure the scope and set IP of DC as default gateway :
 <img src="https://imgur.com/ZTLx1DA.png" height="80%" width="80%" alt=/>
 <br />
 <br />
+Open internet explorer and paste link to powershell script. Download and 'Save As' to the desktop.
+<img src="https://imgur.com/t3MgcZm.png" height="80%" width="80%" alt=/> 
+<br />
+<br />
+Open zipped folder and drag the script onto desktop.
+<img src="https://imgur.com/IzPsSM7.png" height="80%" width="80%" alt=/>  
+<br />
+<br />
+Run Windows PowerShell ISE and open the folder to start script.
+<img src="https://imgur.com/hSIVohd.png" height="80%" width="80%" alt=/>   
+<br />
+<br />
+Enable the execution of all scripts (for lab purposes only). Run PowerShell script and let it create all the users. 
+<img src="https://imgur.com/y27rwAV.png" height="80%" width="80%" alt=/> 
+<br />
+<br />
 Create second VM, change network adapter settings to Internal Network, and install Windows 10 ISO:
 <img src="https://imgur.com/mCTId00.png" height="80%" width="80%" alt=/>
 <br />
