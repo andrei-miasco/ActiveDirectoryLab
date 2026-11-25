@@ -111,7 +111,7 @@ When signing back into the domain controller, the client computer will be shown 
 <img src="https://imgur.com/4PMYR05.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-Head back into the domain controller and access Active Directory
+Head back into the domain controller and access Active Directory. Create a new organizational and name it 'ACCOUNTING'
  
 </p>
 
