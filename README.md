@@ -2,7 +2,7 @@
 
 
 <h2>Description</h2>
-In this lab, we walk through the process of creating an Active Directory environment using two virtual machines in Oracle Virtual Box. We will create one VM as the domain controller with the following installed and configured: AD, RAS/NAT, DHCP, and DNS. The second virtual machine will serve as the internal network that will join to the domain. Using a PowerShell script, we will be adding users to the domain and walk through adding users, removing users, and group policies. 
+In this lab, we walk through the process of creating an Active Directory environment using two virtual machines in Oracle Virtual Box. We will create one VM as the domain controller with the following installed and configured: AD, RAS/NAT, DHCP, and DNS. The second virtual machine will serve as the internal network that will join to the domain. Using a PowerShell script, we will be adding users to the domain and walk through creating a group, adding members to the group, and delegating permissions.
 <br />
 
 
@@ -111,8 +111,23 @@ When signing back into the domain controller, the client computer will be shown 
 <img src="https://imgur.com/4PMYR05.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-Head back into the domain controller and access Active Directory. Create a new organizational and name it 'ACCOUNTING'
- 
+Access Active Directory again. Create a new organizational and name it IT SUPPORT
+<img src="https://imgur.com/ytNq87u.png" height="80%" width="80%" alt=/> 
+<br />
+<br />
+Add a few users that you generated into the new IT SUPPORT group. Use same method to remove users.
+<img src="https://imgur.com/zLe2qrM.png" height="80%" width="80%" alt=/>  
+<br />
+<br />
+Open the Delegation of Control Wizard and add the IT SUPPORT group.
+<img src="https://imgur.com/XQEQHDD.png" height="80%" width="80%" alt=/>  
+<br />
+<br />
+<img src="https://imgur.com/6eXok1r.png" height="80%" width="80%" alt=/> 
+<br />
+<br />
+Delegate the appropriate permissions for the group.
+<img src="https://imgur.com/mOysATR.png" height="80%" width="80%" alt=/> 
 </p>
 
 <!--
