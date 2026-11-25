@@ -102,6 +102,9 @@ Lastly, rename the PC and join the domain:
 <br />
 When signing back into the domain controller, the client computer will be shown in the active directory.
 <img src="https://imgur.com/4PMYR05.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+Head back into the domain controller and access Active Directory
  
 </p>
 
