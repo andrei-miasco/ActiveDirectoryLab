@@ -81,8 +81,15 @@ Run Windows PowerShell ISE and open the folder to start script.
 <img src="https://imgur.com/hSIVohd.png" height="80%" width="80%" alt=/>   
 <br />
 <br />
-Enable the execution of all scripts (for lab purposes only). Run PowerShell script and let it create all the users. 
-<img src="https://imgur.com/y27rwAV.png" height="80%" width="80%" alt=/> 
+Enable the execution of all scripts (for lab purposes only). Then extract the script from the directory it is stored in. 
+<img src="https://imgur.com/n9kboqS.png" height="80%" width="80%" alt=/> 
+<br />
+<br />
+Run the script and generate the users. Head into active directory and see the users you generated.
+<img src="https://imgur.com/XATd990.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<img src="https://imgur.com/cyL1XoU.png" height="80%" width="80%" alt=/>
 <br />
 <br />
 Create second VM, change network adapter settings to Internal Network, and install Windows 10 ISO:
